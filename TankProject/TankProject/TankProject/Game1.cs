@@ -19,6 +19,8 @@ namespace TankProject
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        private Tank tank;
+
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
@@ -47,7 +49,8 @@ namespace TankProject
             // Create a new SpriteBatch, which can be used to draw textures.
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            // TODO: use this.Content to load your game content here
+            // TODO: use this.Content to load your game content here4
+            tank = new Tank(Content.Load<Texture2D>("tank_green"), 300, 300);
         }
 
         /// <summary>
@@ -71,6 +74,7 @@ namespace TankProject
                 this.Exit();
 
             // TODO: Add your update logic here
+            tank.Move();
 
             base.Update(gameTime);
         }
@@ -84,6 +88,12 @@ namespace TankProject
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             // TODO: Add your drawing code here
+
+            spriteBatch.Begin();
+
+            tank.Draw(spriteBatch);
+
+            spriteBatch.End();
 
             base.Draw(gameTime);
         }
