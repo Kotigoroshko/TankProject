@@ -72,6 +72,16 @@ namespace TankProject
                 tankVelocity = i -= FRICTION * i;
             }
 
+            //Граница екрана
+            if (tankPosition.X < 0 + tankTexture.Height / 2)
+                tankPosition.X = 0 + tankTexture.Height / 2;
+            if (tankPosition.X > Game1.SCREEN_WIDTH - tankTexture.Height / 2)
+                tankPosition.X = Game1.SCREEN_WIDTH - tankTexture.Height / 2;
+            if (tankPosition.Y < 0 + tankTexture.Height / 2)
+                tankPosition.Y = 0 + tankTexture.Height / 2;
+            if (tankPosition.Y > Game1.SCREEN_HEIGHT - tankTexture.Height / 2)
+                tankPosition.Y = Game1.SCREEN_HEIGHT - tankTexture.Height / 2;
+
         }
     }
 }

@@ -19,12 +19,20 @@ namespace TankProject
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        public const int SCREEN_WIDTH = 800;
+        public const int SCREEN_HEIGHT = 600;
+
+
         private Tank tank;
 
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+
+            graphics.PreferredBackBufferWidth = SCREEN_WIDTH;
+            graphics.PreferredBackBufferHeight = SCREEN_HEIGHT;
+
         }
 
         /// <summary>
