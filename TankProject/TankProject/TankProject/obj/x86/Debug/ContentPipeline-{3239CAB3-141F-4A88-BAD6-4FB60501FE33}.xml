@@ -10,6 +10,15 @@
       <Output>C:\Users\alexf_000\OneDrive\Temp_GitHub_Projects\TankProject\TankProject\TankProject\TankProject\bin\x86\Debug\Content\tank_green.xnb</Output>
       <Time>2015-04-03T11:43:01.9446424+03:00</Time>
     </Item>
+    <Item>
+      <Source>bullet.png</Source>
+      <Name>bullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\alexf_000\OneDrive\Temp_GitHub_Projects\TankProject\TankProject\TankProject\TankProject\bin\x86\Debug\Content\bullet.xnb</Output>
+      <Time>2015-04-03T13:01:21.4609866+03:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{3239CAB3-141F-4A88-BAD6-4FB60501FE33}</ContentProjectGUID>
