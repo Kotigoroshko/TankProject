@@ -7,7 +7,7 @@
       <Importer>TextureImporter</Importer>
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
-      <Output>C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProject\bin\x86\Debug\Content\tank_green.xnb</Output>
+      <Output>C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProject\bin\x86\Release\Content\tank_green.xnb</Output>
       <Time>2015-04-03T12:15:25.4479767+03:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
@@ -15,12 +15,12 @@
       <ContentProjectGUID>{3239CAB3-141F-4A88-BAD6-4FB60501FE33}</ContentProjectGUID>
       <TargetPlatform>Windows</TargetPlatform>
       <TargetProfile>Reach</TargetProfile>
-      <BuildConfiguration>Debug</BuildConfiguration>
-      <CompressContent>false</CompressContent>
+      <BuildConfiguration>Release</BuildConfiguration>
+      <CompressContent>true</CompressContent>
       <RootDirectory>C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProjectContent\</RootDirectory>
       <LoggerRootDirectory>C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProject\</LoggerRootDirectory>
-      <IntermediateDirectory>C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProject\obj\x86\Debug\</IntermediateDirectory>
-      <OutputDirectory>C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProject\bin\x86\Debug\Content\</OutputDirectory>
+      <IntermediateDirectory>C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProject\obj\x86\Release\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProject\bin\x86\Release\Content\</OutputDirectory>
     </Settings>
     <Assemblies>
       <Assembly>

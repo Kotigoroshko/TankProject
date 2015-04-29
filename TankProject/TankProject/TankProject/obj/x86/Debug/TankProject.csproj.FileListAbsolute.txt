@@ -5,3 +5,10 @@ C:\Users\alexf_000\OneDrive\Temp_GitHub_Projects\TankProject\TankProject\TankPro
 C:\Users\alexf_000\OneDrive\Temp_GitHub_Projects\TankProject\TankProject\TankProject\TankProject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\alexf_000\OneDrive\Temp_GitHub_Projects\TankProject\TankProject\TankProject\TankProject\obj\x86\Debug\TankProject.exe
 C:\Users\alexf_000\OneDrive\Temp_GitHub_Projects\TankProject\TankProject\TankProject\TankProject\obj\x86\Debug\TankProject.pdb
+C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProject\bin\x86\Debug\Content\tank_green.xnb
+C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProject\bin\x86\Debug\TankProject.exe
+C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProject\bin\x86\Debug\TankProject.pdb
+C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProject\obj\x86\Debug\TankProject.csprojResolveAssemblyReference.cache
+C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProject\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProject\obj\x86\Debug\TankProject.exe
+C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProject\obj\x86\Debug\TankProject.pdb

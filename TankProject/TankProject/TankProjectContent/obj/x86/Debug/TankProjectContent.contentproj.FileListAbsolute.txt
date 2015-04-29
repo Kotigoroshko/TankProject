@@ -1,1 +1,2 @@
 C:\Users\alexf_000\OneDrive\Temp_GitHub_Projects\TankProject\TankProject\TankProject\TankProjectContent\obj\x86\Debug\TankProjectContent.contentprojResolveAssemblyReference.cache
+C:\Users\Olexiy\Desktop\TankProject\TankProject\TankProject\TankProject\TankProjectContent\obj\x86\Debug\TankProjectContent.contentprojResolveAssemblyReference.cache
