@@ -19,12 +19,22 @@ namespace TankProject
         GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
 
+        public const int SCREEN_WIDTH = 800;
+        public const int SCREEN_HEIGHT = 600;
+
+
         private Tank tank;
+
+        //private List<Bullet> bullets = new List<Bullet>();
 
         public Game1()
         {
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
+
+            graphics.PreferredBackBufferWidth = SCREEN_WIDTH;
+            graphics.PreferredBackBufferHeight = SCREEN_HEIGHT;
+
         }
 
         /// <summary>
@@ -50,7 +60,7 @@ namespace TankProject
             spriteBatch = new SpriteBatch(GraphicsDevice);
 
             // TODO: use this.Content to load your game content here4
-            tank = new Tank(Content.Load<Texture2D>("tank_green"), 300, 300);
+            tank = new Tank(Content.Load<Texture2D>("tank_green"),Content.Load<Texture2D>("bullet"), 300, 300);
         }
 
         /// <summary>
@@ -75,6 +85,10 @@ namespace TankProject
 
             // TODO: Add your update logic here
             tank.Move();
+            tank.Shooting();
+
+
+            
 
             base.Update(gameTime);
         }
@@ -92,6 +106,8 @@ namespace TankProject
             spriteBatch.Begin();
 
             tank.Draw(spriteBatch);
+
+            tank.DrawBullets(spriteBatch);
 
             spriteBatch.End();
 
